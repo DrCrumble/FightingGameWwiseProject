@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8ADDECDE-0CF7-4344-A430-758978B1C68D}" SchemaVersion="80">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{8ADDECDE-0CF7-4344-A430-758978B1C68D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="GuardBreak" ID="{90C5BC25-44D6-4594-87DF-DE3E46061616}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

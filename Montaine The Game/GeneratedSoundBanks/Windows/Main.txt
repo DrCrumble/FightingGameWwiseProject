@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1711038907	Mid_Hit			\Default Work Unit\Mid_Hit	
+	3368579805	Perfect_Parry_10			\Default Work Unit\Perfect_Parry_10	
+	4001580976	Block			\Default Work Unit\Block	
+	4268837494	Parry_11			\Default Work Unit\Parry_11	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3067181449	GuardBreak			\Default Work Unit\GuardBreak	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24403429	Mid_Hit_7	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Mid_Hit_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mid_Hit\Mid_Hit_7		54980
+	75057509	Perfect_Parry_10	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Perfect_Parry_10_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Perfect_Parry_10		403592
+	101130129	Block_5	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_5_F55B20ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_5		6348
+	163354976	Block_4	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_4_A80B1FC8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_4		6356
+	213678330	Block_3	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_3_24F801C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_3		6356
+	263703645	Parry_11	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Parry_11_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Parry_11		330480
+	499877410	Mid_Hit_8	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Mid_Hit_8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mid_Hit\Mid_Hit_8		61800
+	814291953	Mid_Hit_6	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Mid_Hit_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mid_Hit\Mid_Hit_6		54432
+	820487409	Mid_Hit_9	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Mid_Hit_9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mid_Hit\Mid_Hit_9		58928
+	926227224	Block_2	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_2_A79AB4D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_2		6236
+	1063093944	Block_1	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_1_4057873C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_1		6428
+

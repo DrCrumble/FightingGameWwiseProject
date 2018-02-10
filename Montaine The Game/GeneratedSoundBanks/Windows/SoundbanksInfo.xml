@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4001580976" Name="Block" ObjectPath="\Events\Default Work Unit\Block"/>
+				<Event Id="1711038907" Name="Mid_Hit" ObjectPath="\Events\Default Work Unit\Mid_Hit"/>
+				<Event Id="4268837494" Name="Parry_11" ObjectPath="\Events\Default Work Unit\Parry_11"/>
+				<Event Id="3368579805" Name="Perfect_Parry_10" ObjectPath="\Events\Default Work Unit\Perfect_Parry_10"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="24403429" Language="SFX">
+					<ShortName>Mid_Hit_7.wav</ShortName>
+					<Path>SFX\Mid_Hit_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="75057509" Language="SFX">
+					<ShortName>Perfect_Parry_10.wav</ShortName>
+					<Path>SFX\Perfect_Parry_10_1C9C67B2.wem</Path>
+				</File>
+				<File Id="101130129" Language="SFX">
+					<ShortName>Block_5.wav</ShortName>
+					<Path>SFX\Block_5_F55B20ED.wem</Path>
+				</File>
+				<File Id="163354976" Language="SFX">
+					<ShortName>Block_4.wav</ShortName>
+					<Path>SFX\Block_4_A80B1FC8.wem</Path>
+				</File>
+				<File Id="213678330" Language="SFX">
+					<ShortName>Block_3.wav</ShortName>
+					<Path>SFX\Block_3_24F801C5.wem</Path>
+				</File>
+				<File Id="263703645" Language="SFX">
+					<ShortName>Parry_11.wav</ShortName>
+					<Path>SFX\Parry_11_1C9C67B2.wem</Path>
+				</File>
+				<File Id="499877410" Language="SFX">
+					<ShortName>Mid_Hit_8.wav</ShortName>
+					<Path>SFX\Mid_Hit_8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="814291953" Language="SFX">
+					<ShortName>Mid_Hit_6.wav</ShortName>
+					<Path>SFX\Mid_Hit_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="820487409" Language="SFX">
+					<ShortName>Mid_Hit_9.wav</ShortName>
+					<Path>SFX\Mid_Hit_9_1C9C67B2.wem</Path>
+				</File>
+				<File Id="926227224" Language="SFX">
+					<ShortName>Block_2.wav</ShortName>
+					<Path>SFX\Block_2_A79AB4D0.wem</Path>
+				</File>
+				<File Id="1063093944" Language="SFX">
+					<ShortName>Block_1.wav</ShortName>
+					<Path>SFX\Block_1_4057873C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

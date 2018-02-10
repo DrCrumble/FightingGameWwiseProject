@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64E31A7D-62C1-402F-8295-C2D1C2BEAEC9}" SchemaVersion="80">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{64E31A7D-62C1-402F-8295-C2D1C2BEAEC9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{FD30B818-9506-4D0C-8E89-8D8BC31EF67D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Mid_Hit" ID="{2B91C60D-40BC-42C4-8938-211BA227F7E8}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Block" ID="{DF6B2F7D-CCD1-47AE-BC47-CF10C3C935DF}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Parry_11" ID="{2F62EA0D-F11D-4BAE-BCC0-070A051914A3}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Perfect_Parry_10" ID="{85F36BA8-69F9-4F2F-9395-177AED8A423F}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

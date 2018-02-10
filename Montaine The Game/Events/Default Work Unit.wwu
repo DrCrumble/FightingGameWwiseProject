@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Mid_Hit" ID="{2B91C60D-40BC-42C4-8938-211BA227F7E8}">
+					<ChildrenList>
+						<Action Name="" ID="{54E1480D-36D0-4785-A7D8-3DF24BD924DF}" ShortID="623851757">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mid_Hit" ID="{21E99127-8476-4B0E-A70B-CFDF6DE7CD37}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Block" ID="{DF6B2F7D-CCD1-47AE-BC47-CF10C3C935DF}">
+					<ChildrenList>
+						<Action Name="" ID="{F3A41934-E430-4A53-815F-2D411413416B}" ShortID="424193900">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Block" ID="{0FB3A326-C313-47AC-8A98-060E6868A4BF}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Parry_11" ID="{2F62EA0D-F11D-4BAE-BCC0-070A051914A3}">
+					<ChildrenList>
+						<Action Name="" ID="{D562112E-A484-46ED-9BE6-8C77FCA338EA}" ShortID="230209396">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Parry_11" ID="{37CEE9F2-C92E-43F2-96A8-96EDF90A5F30}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Perfect_Parry_10" ID="{85F36BA8-69F9-4F2F-9395-177AED8A423F}">
+					<ChildrenList>
+						<Action Name="" ID="{B9E04E16-DC33-4FB8-B44D-15214A04A5A2}" ShortID="97558952">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Perfect_Parry_10" ID="{BB850FAE-51D1-4F64-84EC-7C01FAEE73DF}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
