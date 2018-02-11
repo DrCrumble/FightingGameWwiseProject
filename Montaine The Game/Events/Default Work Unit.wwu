@@ -3,20 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Mid_Hit" ID="{2B91C60D-40BC-42C4-8938-211BA227F7E8}">
-					<ChildrenList>
-						<Action Name="" ID="{54E1480D-36D0-4785-A7D8-3DF24BD924DF}" ShortID="623851757">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Mid_Hit" ID="{21E99127-8476-4B0E-A70B-CFDF6DE7CD37}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Block" ID="{DF6B2F7D-CCD1-47AE-BC47-CF10C3C935DF}">
 					<ChildrenList>
 						<Action Name="" ID="{F3A41934-E430-4A53-815F-2D411413416B}" ShortID="424193900">
@@ -61,113 +47,275 @@
 				</Event>
 				<Event Name="Kill" ID="{DF707B30-D162-4AEB-BFE5-F09CCD1BD7F5}"/>
 				<Event Name="Round_Start" ID="{7665247F-40E6-4C8E-A91F-428FFFB4B89D}"/>
-				<Event Name="Jab" ID="{43BD608E-1FF2-4663-B629-1A527812AD38}">
+				<Event Name="Dash" ID="{6F117E9E-3F6C-43CC-9D97-356D7EEE1C6F}">
 					<ChildrenList>
-						<Action Name="" ID="{B0C66B8D-055A-4036-A7AA-888133C95E91}" ShortID="790082614">
+						<Action Name="" ID="{4CD75143-1F19-49F5-8054-078F5F8D7093}" ShortID="963911101">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Jab" ID="{ECC33EA4-6A1C-4B52-9903-E33DAD85A82A}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+									<ObjectRef Name="dash_17" ID="{8726E049-9AA7-4FF4-A578-C1F6FFB81DE6}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Forward_Whoosh" ID="{30F1E72F-A9D8-427D-9C81-DFA162BA4A90}">
+				<Event Name="BigConfirm" ID="{6F4FF669-EF0A-47D9-BDB6-41AF58011E8E}">
 					<ChildrenList>
-						<Action Name="" ID="{49B122E2-C23D-4963-99C2-49A78F0206B0}" ShortID="468216683">
+						<Action Name="" ID="{C7CDC703-3B22-42EF-8BF0-B0653018379A}" ShortID="63718227">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Forward Whoosh" ID="{844DBF73-225F-433A-BA57-DAA7B99138B1}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+									<ObjectRef Name="BigConfirm_23" ID="{CF4FADD6-1D86-4C75-AE27-F416E729AEC0}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Back_Kick_init" ID="{A7B885C0-2616-48AE-97F6-A0F008718622}">
+				<Event Name="Confirm" ID="{541F7A08-6D98-4D0A-92B1-563A244B78B3}">
 					<ChildrenList>
-						<Action Name="" ID="{8F97DC1D-37DF-42D2-9157-A01911D01A89}" ShortID="1006330797">
+						<Action Name="" ID="{80502FD4-55A1-435B-8D39-217178D382CA}" ShortID="1048269206">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Back_Kick_init_11" ID="{580204F9-42F0-4D27-BE87-110C15DCBBC0}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+									<ObjectRef Name="Confirm_22" ID="{06187D41-F8D7-44F2-BB09-05C371671BCB}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Back_Kick_whoosh" ID="{03D77E2C-D245-409E-88D5-533714181EE5}">
+				<Event Name="GetUp" ID="{A5751D1D-86A4-4E71-A118-95812706C6DD}">
 					<ChildrenList>
-						<Action Name="" ID="{151944EB-9D17-4CC7-BF12-FD541D5546E8}" ShortID="458031866">
+						<Action Name="" ID="{20A149F6-EB24-4DA6-8ED0-3F307A62E261}" ShortID="806193555">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Back_Kick_whoosh_12" ID="{ADD5D902-2E69-4E6E-8AB0-3D3F2E075FDE}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+									<ObjectRef Name="GetUp_21" ID="{0E3F31F7-7772-4DCD-86B3-1E88EFF6918A}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Forward_init" ID="{83A9BF8C-6BF3-43BC-91C1-A7BF1D21BB0B}">
+				<Event Name="GuardBreak" ID="{226D4653-FF14-4A49-872D-9761495F37F9}">
 					<ChildrenList>
-						<Action Name="" ID="{B4EACCC6-75FD-475A-B5EE-4F85AD1867F5}" ShortID="490954788">
+						<Action Name="" ID="{3D2FEB12-A0E5-446C-A15A-E61F60E91515}" ShortID="948536785">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Forward_init_6" ID="{3956C06D-15E1-4E0B-9876-AD6E3EA2441B}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+									<ObjectRef Name="GuardBreak_24" ID="{174D0878-F7E2-4708-AD95-A457C6771D9B}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Low_Kick" ID="{79DD7061-173F-4404-8446-0B3E27383B0A}">
+				<Folder Name="Attacks" ID="{689F1F77-F6C2-447C-9487-0CB01BD13ADE}" ShortID="235409854">
 					<ChildrenList>
-						<Action Name="" ID="{716C6D0B-22D2-4F55-93D1-D069344D1C6F}" ShortID="617174625">
+						<Event Name="Low_Kick" ID="{79DD7061-173F-4404-8446-0B3E27383B0A}">
+							<ChildrenList>
+								<Action Name="" ID="{716C6D0B-22D2-4F55-93D1-D069344D1C6F}" ShortID="617174625">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Low_Kick_13" ID="{C89E9D9F-E1FC-4F7F-88A6-B392FFB01D09}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Upper_kick" ID="{770E4A44-4037-4869-A718-CABFB7B3A785}">
+							<ChildrenList>
+								<Action Name="" ID="{9A8901FF-4865-476F-8F8B-AEE847B83375}" ShortID="80168204">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Upper_kick_15" ID="{116AEAF3-F063-4744-9371-3E5F279BC36A}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Upper_kick_handpat" ID="{7CF2B7EE-CCA6-4C27-93AD-FA215A0964B9}">
+							<ChildrenList>
+								<Action Name="" ID="{DFEE9E24-274F-4BAB-B54A-E3F9CE2F52B7}" ShortID="699259510">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Upper_kick_handpat_14" ID="{3889EA8F-D977-4DB9-BA87-0DCAA6F7E73F}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Upper_kick_land" ID="{D450CA90-BD05-4636-A1A2-DDA767C2FC73}">
+							<ChildrenList>
+								<Action Name="" ID="{B5702FB3-7455-41BA-A2F0-ECCF5CA4FA3E}" ShortID="544971088">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Upper_kick_land_16" ID="{40A58CBF-1FBD-4DFD-9EB7-3DF483C463B8}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Back_Kick_init" ID="{A7B885C0-2616-48AE-97F6-A0F008718622}">
+							<ChildrenList>
+								<Action Name="" ID="{8F97DC1D-37DF-42D2-9157-A01911D01A89}" ShortID="1006330797">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Back_Kick_init_11" ID="{580204F9-42F0-4D27-BE87-110C15DCBBC0}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Back_Kick_whoosh" ID="{03D77E2C-D245-409E-88D5-533714181EE5}">
+							<ChildrenList>
+								<Action Name="" ID="{151944EB-9D17-4CC7-BF12-FD541D5546E8}" ShortID="458031866">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Back_Kick_whoosh_12" ID="{ADD5D902-2E69-4E6E-8AB0-3D3F2E075FDE}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Forward_init" ID="{83A9BF8C-6BF3-43BC-91C1-A7BF1D21BB0B}">
+							<ChildrenList>
+								<Action Name="" ID="{B4EACCC6-75FD-475A-B5EE-4F85AD1867F5}" ShortID="490954788">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forward_init_6" ID="{3956C06D-15E1-4E0B-9876-AD6E3EA2441B}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Forward_Whoosh" ID="{30F1E72F-A9D8-427D-9C81-DFA162BA4A90}">
+							<ChildrenList>
+								<Action Name="" ID="{49B122E2-C23D-4963-99C2-49A78F0206B0}" ShortID="468216683">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Forward Whoosh" ID="{844DBF73-225F-433A-BA57-DAA7B99138B1}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Jab" ID="{43BD608E-1FF2-4663-B629-1A527812AD38}">
+							<ChildrenList>
+								<Action Name="" ID="{B0C66B8D-055A-4036-A7AA-888133C95E91}" ShortID="790082614">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jab" ID="{ECC33EA4-6A1C-4B52-9903-E33DAD85A82A}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Hits" ID="{FCE72E90-086B-48A9-BA10-396DE9C0C851}" ShortID="855253927">
+					<ChildrenList>
+						<Event Name="Heavy_Hit" ID="{3EE0408C-7A97-45A1-80F0-85CCA0C5A13F}">
+							<ChildrenList>
+								<Action Name="" ID="{8EDAFAEC-B00B-4703-B614-C2B2C5553735}" ShortID="819278238">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heavy_Hit" ID="{47A0F2EA-18E1-4985-826F-3848B4096AAF}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mid_Hit" ID="{2B91C60D-40BC-42C4-8938-211BA227F7E8}">
+							<ChildrenList>
+								<Action Name="" ID="{54E1480D-36D0-4785-A7D8-3DF24BD924DF}" ShortID="623851757">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mid_Hit" ID="{21E99127-8476-4B0E-A70B-CFDF6DE7CD37}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Light_Hit" ID="{CB1198A1-5864-4DD6-A173-50208A85D772}">
+							<ChildrenList>
+								<Action Name="" ID="{80A59486-1C53-4EE7-A51E-FCD5D3097322}" ShortID="570647384">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Light_Hit" ID="{3EED648B-9D63-4FBC-9220-E2865578EA57}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Jump_init" ID="{16024240-72DF-42AD-AAB4-FFDCD47AA7D5}">
+					<ChildrenList>
+						<Action Name="" ID="{2CC2E614-D9A9-4DED-A56B-458680169ABF}" ShortID="18943879">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Low_Kick_13" ID="{C89E9D9F-E1FC-4F7F-88A6-B392FFB01D09}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+									<ObjectRef Name="Jump_init_18" ID="{6CC95553-7AE6-4BD1-BCC6-8A3690ADF417}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Upper_kick" ID="{770E4A44-4037-4869-A718-CABFB7B3A785}">
+				<Event Name="Jump_Land" ID="{8707E8F7-C273-46FD-8548-053366532B3B}">
 					<ChildrenList>
-						<Action Name="" ID="{9A8901FF-4865-476F-8F8B-AEE847B83375}" ShortID="80168204">
+						<Action Name="" ID="{F9372C85-638E-4D0C-B4D8-164834435F88}" ShortID="492013304">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Upper_kick_15" ID="{116AEAF3-F063-4744-9371-3E5F279BC36A}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Upper_kick_handpat" ID="{7CF2B7EE-CCA6-4C27-93AD-FA215A0964B9}">
-					<ChildrenList>
-						<Action Name="" ID="{DFEE9E24-274F-4BAB-B54A-E3F9CE2F52B7}" ShortID="699259510">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Upper_kick_handpat_14" ID="{3889EA8F-D977-4DB9-BA87-0DCAA6F7E73F}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
+									<ObjectRef Name="Jump_Land_19" ID="{EBDD4846-D517-4202-9CF8-8F6388132754}" WorkUnitID="{87C19050-6BEB-4A1B-BE3D-D5137B01E791}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

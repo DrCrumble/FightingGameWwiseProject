@@ -6,20 +6,64 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{DB07187A-A3E8-4F49-985A-D4349A49538C}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Mid_Hit" ID="{2B91C60D-40BC-42C4-8938-211BA227F7E8}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<ObjectRef Name="Back_Kick_init" ID="{A7B885C0-2616-48AE-97F6-A0F008718622}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Block" ID="{DF6B2F7D-CCD1-47AE-BC47-CF10C3C935DF}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Parry_11" ID="{2F62EA0D-F11D-4BAE-BCC0-070A051914A3}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="Jab" ID="{43BD608E-1FF2-4663-B629-1A527812AD38}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Perfect_Parry_10" ID="{85F36BA8-69F9-4F2F-9395-177AED8A423F}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Back_Kick_whoosh" ID="{03D77E2C-D245-409E-88D5-533714181EE5}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Kill" ID="{DF707B30-D162-4AEB-BFE5-F09CCD1BD7F5}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Round_Start" ID="{7665247F-40E6-4C8E-A91F-428FFFB4B89D}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Block" ID="{DF6B2F7D-CCD1-47AE-BC47-CF10C3C935DF}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Low_Kick" ID="{79DD7061-173F-4404-8446-0B3E27383B0A}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Upper_kick" ID="{770E4A44-4037-4869-A718-CABFB7B3A785}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Forward_init" ID="{83A9BF8C-6BF3-43BC-91C1-A7BF1D21BB0B}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mid_Hit" ID="{2B91C60D-40BC-42C4-8938-211BA227F7E8}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Upper_kick_handpat" ID="{7CF2B7EE-CCA6-4C27-93AD-FA215A0964B9}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Forward_Whoosh" ID="{30F1E72F-A9D8-427D-9C81-DFA162BA4A90}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Parry_11" ID="{2F62EA0D-F11D-4BAE-BCC0-070A051914A3}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Upper_kick_land" ID="{D450CA90-BD05-4636-A1A2-DDA767C2FC73}" WorkUnitID="{033D3F2C-F663-480F-BBC8-F1266E58C3D0}"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
