@@ -1,22 +1,47 @@
 Event	ID	Name			Wwise Object Path	Notes
+	17683061	Forward_Whoosh			\Default Work Unit\Forward_Whoosh	
+	280570306	Round_Start			\Default Work Unit\Round_Start	
+	321053796	Upper_kick			\Default Work Unit\Upper_kick	
+	587916051	Upper_kick_handpat			\Default Work Unit\Upper_kick_handpat	
+	622371194	Low_Kick			\Default Work Unit\Low_Kick	
+	780552104	Jab			\Default Work Unit\Jab	
+	1593604493	Forward_init			\Default Work Unit\Forward_init	
 	1711038907	Mid_Hit			\Default Work Unit\Mid_Hit	
+	2030840469	Kill			\Default Work Unit\Kill	
 	3368579805	Perfect_Parry_10			\Default Work Unit\Perfect_Parry_10	
+	3992044314	Back_Kick_whoosh			\Default Work Unit\Back_Kick_whoosh	
 	4001580976	Block			\Default Work Unit\Block	
+	4195553302	Back_Kick_init			\Default Work Unit\Back_Kick_init	
 	4268837494	Parry_11			\Default Work Unit\Parry_11	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3067181449	GuardBreak			\Default Work Unit\GuardBreak	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2191044	Back_Kick_init_11	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Back_Kick_init_11_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Back_Kick_init_11		104476
 	24403429	Mid_Hit_7	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Mid_Hit_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mid_Hit\Mid_Hit_7		54980
+	33309053	Jab_5	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Jab_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Jab\Jab_5		18148
 	75057509	Perfect_Parry_10	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Perfect_Parry_10_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Perfect_Parry_10		403592
-	101130129	Block_5	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_5_F55B20ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_5		6348
-	163354976	Block_4	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_4_A80B1FC8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_4		6356
+	99714247	whoosh_8	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\whoosh_8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Forward Whoosh\whoosh_8		218232
+	101130129	Block_5	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_5_F55B20ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_5		68220
+	151180453	whoosh_10	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\whoosh_10_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Forward Whoosh\whoosh_10		301236
+	163354976	Block_4	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_4_A80B1FC8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_4		68228
 	213678330	Block_3	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_3_24F801C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_3		6356
+	235837559	Upper_kick_handpat_14	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Upper_kick_handpat_14_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Upper_kick_handpat_14		48552
+	258088733	Upper_kick_15	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Upper_kick_15_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Upper_kick_15		232760
 	263703645	Parry_11	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Parry_11_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Parry_11		330480
+	325661873	Jab_2	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Jab_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Jab\Jab_2		28180
 	499877410	Mid_Hit_8	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Mid_Hit_8_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mid_Hit\Mid_Hit_8		61800
+	536961881	Jab_3	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Jab_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Jab\Jab_3		21796
+	578405811	Jab_1	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Jab_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Jab\Jab_1		33656
+	587562796	Forward_init_6	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Forward_init_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Forward_init_6		154976
+	687158397	Jab_4	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Jab_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Jab\Jab_4		18568
+	710699585	whoosh_7	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\whoosh_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Forward Whoosh\whoosh_7		200068
 	814291953	Mid_Hit_6	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Mid_Hit_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mid_Hit\Mid_Hit_6		54432
 	820487409	Mid_Hit_9	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Mid_Hit_9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mid_Hit\Mid_Hit_9		58928
-	926227224	Block_2	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_2_A79AB4D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_2		6236
-	1063093944	Block_1	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_1_4057873C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_1		6428
+	912721019	Low_Kick_13	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Low_Kick_13_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Low_Kick_13		120508
+	926227224	Block_2	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_2_A0E3EE5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_2		67140
+	981827976	Back_Kick_whoosh_12	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Back_Kick_whoosh_12_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Back_Kick_whoosh_12		273788
+	1023173151	whoosh_9	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\whoosh_9_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Attacks\Forward Whoosh\whoosh_9		205292
+	1063093944	Block_1	C:\Users\Boby\Documents\WwiseProjects\Montaine The Game\.cache\Windows\SFX\Block_1_4057873C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Block\Block_1		68300
 

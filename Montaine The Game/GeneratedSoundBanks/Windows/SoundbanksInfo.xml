@@ -21,23 +21,49 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4195553302" Name="Back_Kick_init" ObjectPath="\Events\Default Work Unit\Back_Kick_init"/>
+				<Event Id="3992044314" Name="Back_Kick_whoosh" ObjectPath="\Events\Default Work Unit\Back_Kick_whoosh"/>
 				<Event Id="4001580976" Name="Block" ObjectPath="\Events\Default Work Unit\Block"/>
+				<Event Id="1593604493" Name="Forward_init" ObjectPath="\Events\Default Work Unit\Forward_init"/>
+				<Event Id="17683061" Name="Forward_Whoosh" ObjectPath="\Events\Default Work Unit\Forward_Whoosh"/>
+				<Event Id="780552104" Name="Jab" ObjectPath="\Events\Default Work Unit\Jab"/>
+				<Event Id="2030840469" Name="Kill" ObjectPath="\Events\Default Work Unit\Kill" MaxAttenuation="0.000000"/>
+				<Event Id="622371194" Name="Low_Kick" ObjectPath="\Events\Default Work Unit\Low_Kick"/>
 				<Event Id="1711038907" Name="Mid_Hit" ObjectPath="\Events\Default Work Unit\Mid_Hit"/>
 				<Event Id="4268837494" Name="Parry_11" ObjectPath="\Events\Default Work Unit\Parry_11"/>
 				<Event Id="3368579805" Name="Perfect_Parry_10" ObjectPath="\Events\Default Work Unit\Perfect_Parry_10"/>
+				<Event Id="280570306" Name="Round_Start" ObjectPath="\Events\Default Work Unit\Round_Start" MaxAttenuation="0.000000"/>
+				<Event Id="321053796" Name="Upper_kick" ObjectPath="\Events\Default Work Unit\Upper_kick"/>
+				<Event Id="587916051" Name="Upper_kick_handpat" ObjectPath="\Events\Default Work Unit\Upper_kick_handpat"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="2191044" Language="SFX">
+					<ShortName>Back_Kick_init_11.wav</ShortName>
+					<Path>SFX\Back_Kick_init_11_1C9C67B2.wem</Path>
+				</File>
 				<File Id="24403429" Language="SFX">
 					<ShortName>Mid_Hit_7.wav</ShortName>
 					<Path>SFX\Mid_Hit_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="33309053" Language="SFX">
+					<ShortName>Jab_5.wav</ShortName>
+					<Path>SFX\Jab_5_1C9C67B2.wem</Path>
 				</File>
 				<File Id="75057509" Language="SFX">
 					<ShortName>Perfect_Parry_10.wav</ShortName>
 					<Path>SFX\Perfect_Parry_10_1C9C67B2.wem</Path>
 				</File>
+				<File Id="99714247" Language="SFX">
+					<ShortName>whoosh_8.wav</ShortName>
+					<Path>SFX\whoosh_8_1C9C67B2.wem</Path>
+				</File>
 				<File Id="101130129" Language="SFX">
 					<ShortName>Block_5.wav</ShortName>
 					<Path>SFX\Block_5_F55B20ED.wem</Path>
+				</File>
+				<File Id="151180453" Language="SFX">
+					<ShortName>whoosh_10.wav</ShortName>
+					<Path>SFX\whoosh_10_1C9C67B2.wem</Path>
 				</File>
 				<File Id="163354976" Language="SFX">
 					<ShortName>Block_4.wav</ShortName>
@@ -47,13 +73,45 @@
 					<ShortName>Block_3.wav</ShortName>
 					<Path>SFX\Block_3_24F801C5.wem</Path>
 				</File>
+				<File Id="235837559" Language="SFX">
+					<ShortName>Upper_kick_handpat_14.wav</ShortName>
+					<Path>SFX\Upper_kick_handpat_14_1C9C67B2.wem</Path>
+				</File>
+				<File Id="258088733" Language="SFX">
+					<ShortName>Upper_kick_15.wav</ShortName>
+					<Path>SFX\Upper_kick_15_1C9C67B2.wem</Path>
+				</File>
 				<File Id="263703645" Language="SFX">
 					<ShortName>Parry_11.wav</ShortName>
 					<Path>SFX\Parry_11_1C9C67B2.wem</Path>
 				</File>
+				<File Id="325661873" Language="SFX">
+					<ShortName>Jab_2.wav</ShortName>
+					<Path>SFX\Jab_2_1C9C67B2.wem</Path>
+				</File>
 				<File Id="499877410" Language="SFX">
 					<ShortName>Mid_Hit_8.wav</ShortName>
 					<Path>SFX\Mid_Hit_8_1C9C67B2.wem</Path>
+				</File>
+				<File Id="536961881" Language="SFX">
+					<ShortName>Jab_3.wav</ShortName>
+					<Path>SFX\Jab_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="578405811" Language="SFX">
+					<ShortName>Jab_1.wav</ShortName>
+					<Path>SFX\Jab_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="587562796" Language="SFX">
+					<ShortName>Forward_init_6.wav</ShortName>
+					<Path>SFX\Forward_init_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="687158397" Language="SFX">
+					<ShortName>Jab_4.wav</ShortName>
+					<Path>SFX\Jab_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="710699585" Language="SFX">
+					<ShortName>whoosh_7.wav</ShortName>
+					<Path>SFX\whoosh_7_1C9C67B2.wem</Path>
 				</File>
 				<File Id="814291953" Language="SFX">
 					<ShortName>Mid_Hit_6.wav</ShortName>
@@ -63,9 +121,21 @@
 					<ShortName>Mid_Hit_9.wav</ShortName>
 					<Path>SFX\Mid_Hit_9_1C9C67B2.wem</Path>
 				</File>
+				<File Id="912721019" Language="SFX">
+					<ShortName>Low_Kick_13.wav</ShortName>
+					<Path>SFX\Low_Kick_13_1C9C67B2.wem</Path>
+				</File>
 				<File Id="926227224" Language="SFX">
 					<ShortName>Block_2.wav</ShortName>
-					<Path>SFX\Block_2_A79AB4D0.wem</Path>
+					<Path>SFX\Block_2_A0E3EE5F.wem</Path>
+				</File>
+				<File Id="981827976" Language="SFX">
+					<ShortName>Back_Kick_whoosh_12.wav</ShortName>
+					<Path>SFX\Back_Kick_whoosh_12_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1023173151" Language="SFX">
+					<ShortName>whoosh_9.wav</ShortName>
+					<Path>SFX\whoosh_9_1C9C67B2.wem</Path>
 				</File>
 				<File Id="1063093944" Language="SFX">
 					<ShortName>Block_1.wav</ShortName>
