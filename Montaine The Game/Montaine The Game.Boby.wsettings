@@ -5,7 +5,11 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Boby\Documents\Sessions\Audio Exports"/>
 				<Property Name="Event Action List\{2B91C60D-40BC-42C4-8938-211BA227F7E8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7665247F-40E6-4C8E-A91F-428FFFB4B89D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{85F36BA8-69F9-4F2F-9395-177AED8A423F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A7B885C0-2616-48AE-97F6-A0F008718622}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DF6B2F7D-CCD1-47AE-BC47-CF10C3C935DF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DF707B30-D162-4AEB-BFE5-F09CCD1BD7F5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -91,7 +95,8 @@
 					<PluginInnerObject Name="" ID="{F5948C1B-8769-4A9A-9882-885769D52EB4}" PluginName="BatchRenameSettings" CompanyID="0" PluginID="992">
 						<PropertyList>
 							<Property Name="EnableRemove" Type="bool" Value="True"/>
-							<Property Name="RemoveCount" Type="int32" Value="5"/>
+							<Property Name="RemoveCount" Type="int32" Value="3"/>
+							<Property Name="RemoveFrom" Type="int16" Value="1"/>
 						</PropertyList>
 					</PluginInnerObject>
 				</List>

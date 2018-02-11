@@ -25,7 +25,11 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="GuardBreak" ID="{90C5BC25-44D6-4594-87DF-DE3E46061616}"/>
-							<Value>94</Value>
+							<Value>32</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Kill" ID="{F426E470-2A6D-47C8-BC18-71E6CCE67315}"/>
+							<Value>1</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
